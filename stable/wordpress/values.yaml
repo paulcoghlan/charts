@@ -137,6 +137,9 @@ mariadb:
       accessMode: ReadWriteOnce
       size: 8Gi
 
+  slave:
+      replicas: 0
+
 ## Kubernetes configuration
 ## For minikube, set this to NodePort, elsewhere use LoadBalancer or ClusterIP
 ##
